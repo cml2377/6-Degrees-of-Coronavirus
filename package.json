@@ -1,0 +1,27 @@
+{
+  "name": "6-degrees-of-coronavirus",
+  "version": "1.0.0",
+  "description": "Six degrees of coronavirus, visualising the spread based on your personal experience and contacts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cml2377/6-Degrees-of-Coronavirus.git"
+  },
+  "keywords": [
+    "coronavirus",
+    "react",
+    "degrees",
+    "contact",
+    "positive",
+    "status"
+  ],
+  "author": "Crystal Ly, Anthony Garza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cml2377/6-Degrees-of-Coronavirus/issues"
+  },
+  "homepage": "https://github.com/cml2377/6-Degrees-of-Coronavirus#readme"
+}
