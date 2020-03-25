@@ -2,9 +2,19 @@
   "name": "6-degrees-of-coronavirus",
   "version": "1.0.0",
   "description": "Six degrees of coronavirus, visualising the spread based on your personal experience and contacts.",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "12.16.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node seeders/seed.js",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,5 +33,14 @@
   "bugs": {
     "url": "https://github.com/cml2377/6-Degrees-of-Coronavirus/issues"
   },
-  "homepage": "https://github.com/cml2377/6-Degrees-of-Coronavirus#readme"
+  "homepage": "https://github.com/cml2377/6-Degrees-of-Coronavirus#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.9.5",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
