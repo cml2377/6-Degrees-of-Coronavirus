@@ -17,8 +17,8 @@ The site will do this zoom-out animation from your name/face to your contacts, t
 
 ### Technologies
 
-MERN Stack
-[Scroll Reveal](https://github.com/jlmakes/scrollreveal)-- To reveal other users as you move around the degree map
+* MERN Stack
+* [Scroll Reveal](https://github.com/jlmakes/scrollreveal)-- To reveal other users as you move around the degree map
 
 #### Contributors
 
