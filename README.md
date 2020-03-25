@@ -14,3 +14,13 @@ If you know their email or phone, you can send them an invite to make their prof
 The site will do this zoom-out animation from your name/face to your contacts, then their contacts, etc.
 
 <img src="./readmeImages/coronaMap.png" width="100%">
+
+### Technologies
+
+MERN Stack
+[Scroll Reveal](https://github.com/jlmakes/scrollreveal)-- To reveal other users as you move around the degree map
+
+#### Contributors
+
+Crystal Ly
+Anthony Garza
